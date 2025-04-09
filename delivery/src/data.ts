@@ -118,9 +118,6 @@ export const featuredProducts: Product[] = [
   },
 ]
 
-
-
-
 export const pizzzas: products = [
   {
     id: 1,
@@ -232,7 +229,6 @@ export const pizzzas: products = [
   },
 ]
 
-
 export const singleProduct: Product = {
   id: 1,
   title: 'Sicilian',
@@ -245,11 +241,6 @@ export const singleProduct: Product = {
     { title: 'Large', additionalPrice: 6 },
   ],
 }
-  
-
-
-
-
 
 type Menu = {
   id: number
@@ -285,4 +276,3 @@ export const menu: Menu = [
     color: 'white',
   },
 ]
-
