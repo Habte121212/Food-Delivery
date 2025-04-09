@@ -233,6 +233,22 @@ export const pizzzas: products = [
 ]
 
 
+export const singleProduct: Product = {
+  id: 1,
+  title: 'Sicilian',
+  desc: 'Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeno and red onions for a burest of flavor. A classic Italian delight.',
+  img: '/temporary/p1.png',
+  price: 24.5,
+  options: [
+    { title: 'Small', additionalPrice: 0 },
+    { title: 'Medium', additionalPrice: 4 },
+    { title: 'Large', additionalPrice: 6 },
+  ],
+}
+  
+
+
+
 
 
 type Menu = {
